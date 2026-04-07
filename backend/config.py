@@ -79,5 +79,5 @@ ALERT_EMAIL   = os.getenv("ALERT_EMAIL", "")     # Where to send alerts
 
 # ── Safety & Limits ──────────────────────────────────────────────────────────
 # These can be overridden via API, but defaults are set here
-DEFAULT_DAILY_EXPENDITURE_LIMIT = float(os.getenv("DAILY_LIMIT_INR", 500.0))
+DEFAULT_DAILY_EXPENDITURE_LIMIT = float(os.getenv("DAILY_LIMIT_INR", 1500.0))
 ALERT_THRESHOLD_PCT             = 0.80  # 80%
