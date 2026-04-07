@@ -4,7 +4,7 @@
   "outputDirectory": ".next",
   "installCommand": "npm install",
   "env": {
-    "NEXT_PUBLIC_WS_URL": "wss://p2p-solar-backend.onrender.com/ws",
-    "NEXT_PUBLIC_API_URL": "https://p2p-solar-backend.onrender.com"
+    "NEXT_PUBLIC_WS_URL": "wss://p2p-trading-08op.onrender.com/ws",
+    "NEXT_PUBLIC_API_URL": "https://p2p-trading-08op.onrender.com"
   }
 }
