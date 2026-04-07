@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: p2p-solar-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    region: oregon
+    branch: main
+    healthCheckPath: /health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 10000
+      - key: OLLAMA_BASE_URL
+        value: http://localhost:11434
+      - key: OLLAMA_MODEL
+        value: llama3
+      - key: SENTINEL_LAT
+        value: "12.9719"
+      - key: SENTINEL_LON
+        value: "77.5937"
+      - key: SENTINEL_RADIUS_KM
+        value: "50"
+      - key: BASE_ENERGY_PRICE_INR
+        value: "8.50"
+      - key: MIN_BID_PRICE_INR
+        value: "3.50"
+      - key: MAX_BID_PRICE_INR
+        value: "9.50"
+      - key: CO2_FACTOR_KG_PER_KWH
+        value: "0.82"
+      - key: AUTOGEN_LLM_MODEL
+        value: llama3
+      - key: HARDHAT_RPC_URL
+        value: http://127.0.0.1:8545
+      # Set these as Secret Env Vars in the Render dashboard:
+      # SMTP_USER, SMTP_PASS, ALERT_EMAIL
+      # COPERNICUS_USER, COPERNICUS_PASSWORD
+      # ENERGY_MARKET_CONTRACT, DEPLOYER_PRIVATE_KEY
