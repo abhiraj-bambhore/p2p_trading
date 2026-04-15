@@ -33,14 +33,18 @@ async def send_safety_alert(current_spend: float, limit: float):
     msg.add_alternative(body, subtype="html")
 
     try:
-        await aiosmtplib.send(
-            msg,
-            hostname=config.SMTP_SERVER,
-            port=config.SMTP_PORT,
-            username=config.SMTP_USER,
-            password=config.SMTP_PASS,
-            use_tls=False,
-            start_tls=True,
+        import asyncio
+        await asyncio.wait_for(
+            aiosmtplib.send(
+                msg,
+                hostname=config.SMTP_SERVER,
+                port=config.SMTP_PORT,
+                username=config.SMTP_USER,
+                password=config.SMTP_PASS,
+                use_tls=False,
+                start_tls=True,
+            ),
+            timeout=5.0
         )
         log.info(f"✅ Safety alert email sent to {config.ALERT_EMAIL}")
         return True
