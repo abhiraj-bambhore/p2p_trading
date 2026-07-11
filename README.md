@@ -343,7 +343,6 @@ startup_details/
 │
 ├── 📋 business_strategy/
 │   ├── Startup_Evaluation_Indian_Energy_Stack.docx
-│   ├── research_paper_content.txt
 │   └── paul_graham_validation_framework.txt
 │
 ├── 🔗 links_and_references/
