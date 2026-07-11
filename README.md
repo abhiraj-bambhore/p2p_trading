@@ -2,8 +2,9 @@
 
 ### Autonomous P2P Energy Orchestration for India's Rooftop Solar Grid
 
-> **⚠️ This folder contains ONLY startup documentation, assets, and non-code materials.**
-> **DO NOT modify any code in `backend/`, `frontend/`, or `blockchain/`.**
+> **⚠️ Note for Reviewers & Collaborators:** 
+> Please **access only the `startup_details/` folder** for all project documentation and assets. **DO NOT modify any code in `backend/`, `frontend/`, or `blockchain/`.**
+> To fully understand the project's scope, please **go through this `README.md`, review the `architecture/` diagrams, and read the `links_and_references/links.md` file**.
 
 ---
 
@@ -13,6 +14,7 @@
 |---|---|
 | 🌐 **Live Proof of Concept** | [p2p-trading.vercel.app](https://p2p-trading-nrj4iz7e0-abhirajs-projects-1d7aabae.vercel.app/) |
 | 🎬 **Video Demo** | [Google Drive](https://drive.google.com/file/d/17HzW5DpCWRaoFsLILpnOXY-AOs39rTaz/view?usp=drivesdk) |
+| 🧩 **Public APIs Repository** | [github.com/public-apis/public-apis](https://github.com/public-apis/public-apis) *(For further building and integrations)* |
 
 ---
 
