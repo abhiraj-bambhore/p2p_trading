@@ -20,7 +20,7 @@
 
 ## 🔴 The Challenge
 
-Rooftop solar generation in India reached approximately **20.8 GW** of cumulative installed capacity by end-2025, yet grid operators were forced to discard an estimated **2.3 TWh** of that energy while simultaneously paying out an estimated **₹6,000 crore** in must-run compensation — **not because demand was absent, but because neighboring households had no way to trade directly.**
+Rooftop solar generation in India reached approximately **20.8 GW** of cumulative installed capacity by end-2025, yet grid operators were forced to discard an estimated **2.3 TWh** of that energy while simultaneously paying out an estimated **₹600 crore** in must-run compensation — **not because demand was absent, but because neighboring households had no way to trade directly.**
 
 Traditional auction systems using cloud technology and public-chain blockchains cannot fulfill the latency and privacy requirements of residential trading.
 
