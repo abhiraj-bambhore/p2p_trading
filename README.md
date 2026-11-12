@@ -12,7 +12,7 @@
 
 | | Link |
 |---|---|
-| 🌐 **Live Proof of Concept** | [p2p-trading.vercel.app](https://p2p-trading-nrj4iz7e0-abhirajs-projects-1d7aabae.vercel.app/) |
+| 🌐 **Live Proof of Concept** | [p2p-trading.vercel.app](https://p2p-trading-2kkt7rhxl-abhirajs-projects-1d7aabae.vercel.app/) |
 | 🎬 **Video Demo** | [Google Drive](https://drive.google.com/file/d/17HzW5DpCWRaoFsLILpnOXY-AOs39rTaz/view?usp=drivesdk) |
 | 🧩 **Public APIs Repository** | [github.com/public-apis/public-apis](https://github.com/public-apis/public-apis) *(For further building and integrations)* |
 
